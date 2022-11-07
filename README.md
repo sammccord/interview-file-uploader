@@ -1,6 +1,6 @@
 # Adim Full Stack Takehome
 
-Hi! Welcome to the take home. Here is a bare bones next.js app created with the t3 app! The bottom of this readme contains some usage tips if you are new to t3 -- essentially it sets up a bit of boilerplate so you can get moving faster.
+Hi! Welcome to the take home. Here is a bare-bones [Next.js](nextjs.org/) app created with the [t3 app](https://create.t3.gg/)! The bottom of this readme contains some usage tips if you are new to t3 -- essentially it sets up a bit of boilerplate so you can get moving faster.
 
 ## Task
 
@@ -8,16 +8,20 @@ Using the [giphy.com API](https://developers.giphy.com/), create an app that acc
 
 1. User can search for a gif
 2. User can select a gif from search results
-3. Clicking submit will save the gif as a users PFP
+3. Clicking submit will save the gif as a user's PFP (profile pic)
 
 - How to save the pfp image is up to you. One option is to upload to an Adim internal s3 bucket. The access keys will be provided along with this prompt.
 
 ### To set up dev env
 
-1. clone this repo
-2. in terminal, run `npm install`
-3. in terminal, run `npm run dev`
-4. You now have your nextjs app hot reloading on port 3000
+1. Clone this repo
+2. In terminal, run `npm install`
+3. In terminal, run `npm run dev`
+4. You now have your nextjs app hot-reloading on port 3000
+
+## How to submit your response
+
+Upload your response to a private Github repository and give access to [Alexei](https://github.com/amihalopoulos) and [Alex](https://github.com/aloukissas/). We should be able to pull your repo and run it locally, just like the instructions above. If running your code has any other dependencies (e.g. API keys), please provide them together with your submission. You can also deploy your app on [Vercel](vercel.com/) (they offer a free plan).
 
 ======
 
