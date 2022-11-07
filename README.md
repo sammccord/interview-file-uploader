@@ -1,3 +1,19 @@
+# Adim Full Stack Takehome
+
+Hi! Welcome to the take home. Here is a bare bones next.js app created with the t3 app! The bottom of this readme contains some usage tips if you are new to t3 -- essentially it sets up a bit of boilerplate so you can get moving faster.
+
+## Task
+
+Using the [giphy.com API](https://developers.giphy.com/), create an app that accomplishes the following:
+
+1. User can search for a gif
+2. User can select a gif from search results
+3. Clicking submit will save the gif as a users PFP
+
+- How to save the pfp image is up to you. One option is to upload to an Adim internal s3 bucket. The access keys will be provided along with this prompt.
+
+======
+
 # Create T3 App
 
 This is an app bootstrapped according to the [init.tips](https://init.tips) stack, also known as the T3-Stack.
@@ -21,7 +37,3 @@ Also checkout these awesome tutorials on `create-t3-app`.
 - [Build a Live Chat Application with the T3 Stack - TypeScript, Tailwind, tRPC](https://www.youtube.com/watch?v=dXRRY37MPuk)
 - [Build a full stack app with create-t3-app](https://www.nexxel.dev/blog/ct3a-guestbook)
 - [A first look at create-t3-app](https://dev.to/ajcwebdev/a-first-look-at-create-t3-app-1i8f)
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://beta.create.t3.gg/en/deployment/vercel) and [Docker](https://beta.create.t3.gg/en/deployment/docker) for more information.
