@@ -10,7 +10,7 @@ Using the [giphy.com API](https://developers.giphy.com/), create an app that acc
 2. User can select a gif from search results
 3. Clicking submit will save the gif as a users PFP
 
-- # How to save the pfp image is up to you. One option is to upload to an Adim internal s3 bucket. The access keys will be provided along with this prompt.
+- How to save the pfp image is up to you. One option is to upload to an Adim internal s3 bucket. The access keys will be provided along with this prompt.
 
 ### To set up dev env
 
