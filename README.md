@@ -15,6 +15,14 @@ How you save the pfp image file is up to you. One option is to upload to an Adim
 access keys will be provided along with this prompt.
 ```
 
+## Possible Extra Credit Ideas
+
+- If you finish within the allotted time and want to do extra credit, feel free to tackle one or more of the below ideas. Or feel free to come up with your own!
+
+1. Support a history of pfps for a user, similar to how Facebook allows you to view the history of a user's profile pictures.
+2. Flesh out the profile page to use more than just a pfp
+3. Add support for image descriptions to accompany the pfp.
+
 ### To set up dev env
 
 1. Clone this repo
