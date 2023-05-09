@@ -1,6 +1,24 @@
 # Adim Full Stack Takehome
 
-Hi! Welcome to the take home. Here is a bare-bones [Next.js](nextjs.org/) app created with the [t3 app](https://create.t3.gg/)! The bottom of this readme contains some usage tips if you are new to t3 -- essentially it sets up a bit of boilerplate so you can get moving faster.
+## Sam's Notes
+
+What's up! Thanks for taking the time to go through this project.
+
+You'll need a `GIPHY_KEY` environment variable set in `.env` / `.env.local`
+
+```sh
+GIPHY_KEY=XXXXXXXXXXXetc
+```
+
+The project is pretty simple, clone, install, `npm run dev`
+
+Selected profile pictures / history saves to localStorage. Your profile picture is in the top right nav, click to open history dropdown.
+
+Some parts got rough as I ran out of time, like server side validation / pagination / sorting support.
+
+I also would've liked to tinker more with the Giphy API to select the best images to use for the app, but I just used the preview gif url, which seemed fine.
+
+Definitely let me know if you'd like to discuss this project further. Thanks again!
 
 ## Task
 
