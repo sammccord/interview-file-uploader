@@ -56,7 +56,15 @@ export const GiphySearch: React.FC = () => {
 
   return (
     <div>
-      <SearchForm handleSubmit={handleSubmitSearch} />
+      <SearchForm
+        handleSubmit={handleSubmitSearch}
+        handleKeyUp={(e) =>
+          setSearchParams((s) => ({
+            ...s,
+            search: (e.target as HTMLInputElement).value.toString().trim() || "",
+          }))
+        }
+      />
       <div>
         {query.error && (
           <div className="my-4 bg-red-300/50 border border-red-600 text-red-600 rounded-md text-2xl p-6">

@@ -1,9 +1,10 @@
 import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
-import { FormEventHandler } from "react";
+import { FormEventHandler, KeyboardEventHandler } from "react";
 
 export const SearchForm: React.FC<{
   handleSubmit: FormEventHandler<HTMLFormElement>;
-}> = ({ handleSubmit }) => {
+  handleKeyUp: KeyboardEventHandler<HTMLInputElement>
+}> = ({ handleSubmit, handleKeyUp }) => {
   return (
     <form onSubmit={handleSubmit} className="flex flex-1 space-x-2 my-4">
       <div className="flex-1">
@@ -26,6 +27,7 @@ export const SearchForm: React.FC<{
               name="search"
               id="search"
               minLength={2}
+              onKeyUp={handleKeyUp}
               max={50}
               className="block w-full rounded-md border-0 py-1.5 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               placeholder="Search Term"
